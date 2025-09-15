@@ -1,36 +1,33 @@
-# BudgetTracker
-Mein Lernprojekt BudgetTracker Version 1.0 (LB1.0)
-# Lernprojekt BudgetTracker
+#Lernprojekt Budgetrechner
 
-Dies ist mein erstes Lernprojekt in Python.  
-Es basiert auf meinem Lernfortschritt aus dem Buch *"Python Crashkurs"* von Eric Matthes.  
-Die Idee: Alle paar Wochen – nach einigen Kapiteln – erweitere ich diesen Budget-Tracker um neue Konzepte.  
-So lässt sich mein Lernweg nachvollziehen, ohne dass man jedes einzelne Übungsnotebook durchgehen muss.
+Die Reise mit Python begann am 20. August 2024.
+Als Grundlage nutze ich das Buch “Python Crashkurs” von Eric Matthes.
 
----
+Um meinen Lernfortschritt festzuhalten, habe ich das Lernprojekt Budgetrechner gestartet.
+Jede Version baut auf den bisherigen Kenntnissen auf und spiegelt meinen aktuellen Stand wider.
 
-## Versionen
-- **LB1.0**  
-  - Erfassen von Ausgaben in einer Liste  
-  - Berechnung der Gesamtsumme (`sum`)  
-  - Bestimmung der kleinsten (`min`) und größten Ausgabe (`max`)  
-  - Berechnung des Durchschnitts (Summe ÷ Anzahl)  
+⸻
 
----
+#LB 1.0
 
-## Features (aktuell)
-- Liste von Ausgaben als Ausgangsdaten  
-- Übersicht über alle Einträge  
-- Statistik: Summe, Minimum, Maximum, Durchschnitt  
+Die erste Version des Budgetrechners.
+	•	Sammlung von Ausgaben in einer Liste
+	•	Berechnung von Gesamtausgaben
+	•	Ermittlung von kleinster und größter Ausgabe
+	•	Berechnung des Durchschnitts
 
----
+Ziel: Anwendung von Listen, Schleifen und einfachen Funktionen wie sum(), max() und min().
 
-## Lernziele
-- Festigung der Grundlagen: Listen, Schleifen, eingebaute Funktionen (`sum`, `min`, `max`, `len`)  
-- Dokumentation meines Lernfortschritts in einem Projekt  
-- Nutzung von GitHub als Portfolio
+⸻
 
----
+#LB 2.0
 
-## Colab Link
--  https://colab.research.google.com/github/enesbakiadem/BudgetTracker/blob/main/lb1.0.ipynb
+Die zweite Version erweitert den Funktionsumfang deutlich.
+	•	Nutzung von Dictionaries für die Verwaltung von Ausgaben
+	•	Menüführung über Benutzereingaben
+	•	Möglichkeit, ein monatliches Budget festzulegen
+	•	Statistiken über Gesamtausgaben und Restbudget
+	•	Löschfunktion für einzelne Ausgaben
+	•	Eingabeüberprüfung, um falsche Eingaben abzufangen
+
+Ziel: Kombination von while-Schleifen, if/elif/else-Abfragen, Benutzereingaben, Dictionaries und Fehlerbehandlung.
