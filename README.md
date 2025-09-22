@@ -31,3 +31,13 @@ Die zweite Version erweitert den Funktionsumfang deutlich.
 	•	Eingabeüberprüfung, um falsche Eingaben abzufangen
 
 Ziel: Kombination von while-Schleifen, if/elif/else-Abfragen, Benutzereingaben, Dictionaries und Fehlerbehandlung.
+
+⸻
+
+#LB 2.1
+Die dritte Version strukturiert den bestehenden Funktionsumfang neu.
+• Auslagerung aller Programmteile in eigene Funktionen (def)
+• Klare Trennung von Aufgaben wie Ausgabe erfassen, Budget festlegen, Statistik anzeigen, Ausgaben löschen
+• Rückgabe und Übergabe von Variablen statt globaler Änderungen
+
+Ziel: Sauberere Struktur und bessere Übersichtlichkeit.
