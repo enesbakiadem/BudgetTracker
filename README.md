@@ -1,43 +1,39 @@
-#Lernprojekt Budgetrechner
+# BudgetTracker – Lernprojekt Python
 
-Die Reise mit Python begann am 20. August 2024.
-Als Grundlage nutze ich das Buch “Python Crashkurs” von Eric Matthes.
+**Version 2.2** | **Autor:** Enes Adem | **Stand:** Oktober 2025
 
-Um meinen Lernfortschritt festzuhalten, habe ich das Lernprojekt Budgetrechner gestartet.
-Jede Version baut auf den bisherigen Kenntnissen auf und spiegelt meinen aktuellen Stand wider.
+Ein Portfolio-Projekt, das meinen Fortschritt in Python dokumentiert:  
+Vom einfachen Ausgabenlisten-Skript bis zum vollwertigen Budgetrechner mit Menü, Datenstruktur und Reset-Funktion.
 
-⸻
+---
 
-#LB 1.0
+# Hauptfeatures
 
-Die erste Version des Budgetrechners.
-	•	Sammlung von Ausgaben in einer Liste
-	•	Berechnung von Gesamtausgaben
-	•	Ermittlung von kleinster und größter Ausgabe
-	•	Berechnung des Durchschnitts
+- Ausgaben erfassen (Name + Betrag)  
+- Monatliches Budget festlegen  
+- Statistiken: Gesamtausgaben, Restbudget, Warnung bei Overbudget  
+- Ausgaben löschen – einzeln oder mehrfach  
+- Menüinteraktion mit Eingabeprüfung  
+- Zurücksetzen: (alles löschen & Budget auf 0 setzen)  
+- Saubere Code-Struktur mit Klasse & Methoden
 
-Ziel: Anwendung von Listen, Schleifen und einfachen Funktionen wie sum(), max() und min().
+---
 
-⸻
+# Versionen & Entwicklung
 
-#LB 2.0
+| Version | Änderungen |
+|--------|----------------|
+| **LB 1.0** | Erste Version: einfache Liste, Summen, Mini-Statistiken |
+| **LB 2.0** | Umstieg auf Dictionaries, Eingabeprüfung, Menüführung |
+| **LB 2.1** | Refactoring: einzelne Funktionen kapseln, bessere Struktur |
+| **LB 2.2** | Reset-Option, bessere Menüanzeige, Lesbarkeit & Kommentare |
 
-Die zweite Version erweitert den Funktionsumfang deutlich.
-	•	Nutzung von Dictionaries für die Verwaltung von Ausgaben
-	•	Menüführung über Benutzereingaben
-	•	Möglichkeit, ein monatliches Budget festzulegen
-	•	Statistiken über Gesamtausgaben und Restbudget
-	•	Löschfunktion für einzelne Ausgaben
-	•	Eingabeüberprüfung, um falsche Eingaben abzufangen
+---
 
-Ziel: Kombination von while-Schleifen, if/elif/else-Abfragen, Benutzereingaben, Dictionaries und Fehlerbehandlung.
+# Ziel & Motivation
 
-⸻
-
-#LB 2.1
-Die dritte Version strukturiert den bestehenden Funktionsumfang neu.
-• Auslagerung aller Programmteile in eigene Funktionen (def)
-• Klare Trennung von Aufgaben wie Ausgabe erfassen, Budget festlegen, Statistik anzeigen, Ausgaben löschen
-• Rückgabe und Übergabe von Variablen statt globaler Änderungen
-
-Ziel: Sauberere Struktur und bessere Übersichtlichkeit.
+Dieses Projekt dient als **nachvollziehbare Lernhistorie**.  
+Ich möchte zeigen:  
+1. Wie ich Python-Kenntnisse schrittweise ausbaue  
+2. Wie sich meine Programmierstruktur verbessert  
+3. Wie man aus kleinen Skripten stabile Tools baut
